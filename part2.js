@@ -20,7 +20,7 @@ console.log(vowelCount('awesome'))
 //REMOVE VOWELS
 const removeVowels = str => {
     let string = str.toLowerCase()
-    let output
+    let output = ''
     for (let i = 0; i < string.length; i++){
         if(string[i] === 'a' || string[i] === 'o' || string[i] === 'u'  || string[i] === 'i' || string[i] === 'e' ){
             continue
