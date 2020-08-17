@@ -21,17 +21,17 @@ const vowelCount = string => {
 
 console.log(vowelCount('awesome'))
 
-// //REMOVE VOWELS
-// const removeVowels = str => {
-//     let string = str.toLowerCase()
-//     let output = ''
-//     for (let i = 0; i < string.length; i++){
-//         if(string[i] === 'a' || string[i] === 'o' || string[i] === 'u'  || string[i] === 'i' || string[i] === 'e' ){
-//             continue
-//         }
-//         output += string[i]
-//     }
-//     return output
-// }
+//REMOVE VOWELS
+const removeVowels = str => {
+    let string = str.toLowerCase()
+    let output = ''
+    for (let i = 0; i < string.length; i++){
+        if(string[i] === 'a' || string[i] === 'o' || string[i] === 'u'  || string[i] === 'i' || string[i] === 'e' ){
+            continue
+        }
+        output += string[i]
+    }
+    return output
+}
 
-// console.log(removeVowels('love'))
+console.log(removeVowels('love'))
