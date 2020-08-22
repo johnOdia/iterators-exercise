@@ -1,4 +1,4 @@
-//VOWEL COUNT
+//VOWEL COUNT (written by Efosa Odia)
 const vowelCount = string => {
     let stringArray = [...string]//changes the string into an array using the spread operator. Another way is using string.split("") method
     let vowels = ['a', 'e', 'i', 'o', 'u']
@@ -14,9 +14,9 @@ console.log(vowelCount('incredible'))
 
 
 
-//REMOVE VOWELS
+//REMOVE VOWELS (written by Efosa Odia)
 const removeVowels = str => {
-    let string = [...str.toLowerCase()]// forgive me i love using spread operators!
+    let string = [...str.toLowerCase()]// forgive me i love using spread operators! even if i could've used string.split("") here instead
     let vowels = ['a', 'e', 'i', 'o', 'u']
     let output = ''
     string.forEach(val => {
